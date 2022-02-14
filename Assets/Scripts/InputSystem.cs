@@ -36,11 +36,11 @@ public class InputSystem : MonoBehaviour
     {
         if (Input.GetKey(KeyCode.A))
         {
-            pinLeft.angularVelocity += upAccel;
+            pinLeft.angularVelocity += upAccel * Time.deltaTime;
         }
         else
         {
-            pinLeft.angularVelocity -= downAccel;
+            pinLeft.angularVelocity -= downAccel * Time.deltaTime;
         }
 
         if (pinLeft.angularVelocity > 0 && !isLeftUp)
@@ -64,11 +64,11 @@ public class InputSystem : MonoBehaviour
 
         if (Input.GetKey(KeyCode.D))
         {
-            pinRight.angularVelocity -= upAccel;
+            pinRight.angularVelocity -= upAccel * Time.deltaTime;
         }
         else
         {
-            pinRight.angularVelocity += downAccel;
+            pinRight.angularVelocity += downAccel * Time.deltaTime;
         }
 
         if (pinRight.angularVelocity < 0 && !isRightUp)

@@ -364,7 +364,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 1
   m_Sprite: {fileID: 21300000, guid: f2aed81540140b9458ef050064feb8fa, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -962,8 +962,8 @@ MonoBehaviour:
   pinRight: {fileID: 1989741245}
   startAngle: -0.06
   maxAngle: 0.2
-  upAccel: 40
-  downAccel: 20
+  upAccel: 12000
+  downAccel: 6000
   flipperSound: {fileID: 8300000, guid: 639d1f8fd6d70324483711a29c9ac70e, type: 3}
 --- !u!114 &232984719
 MonoBehaviour:
