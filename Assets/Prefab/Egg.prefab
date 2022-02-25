@@ -137,6 +137,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: cafe864014435ab42824cdfc2fe515e1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  breakVelocity: 8
+  breakEffectPrefab: {fileID: 6652741934098652375, guid: de93faa46984f5846925195233840a3a, type: 3}
+  breakSound: {fileID: 8300000, guid: 862ed1b16b83df944ae33a9b57a9e44e, type: 3}
   boks:
   - {fileID: 8300000, guid: 23932f8d3dad9b4408b16f0a13de2d39, type: 3}
   - {fileID: 8300000, guid: b1b80a78774b5d3448f68a55d88cf09d, type: 3}

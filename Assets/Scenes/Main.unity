@@ -1856,7 +1856,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: dc9e672d605f1244a9449814108645fa, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  wowSound: {fileID: 8300000, guid: 9ca38725e3d548248b6d5115be674cad, type: 3}
+  wowSound: {fileID: 8300000, guid: fe42c156197d7d343baae44a747ace5e, type: 3}
 --- !u!82 &307133851
 AudioSource:
   m_ObjectHideFlags: 0
@@ -2100,7 +2100,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: dc9e672d605f1244a9449814108645fa, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  wowSound: {fileID: 8300000, guid: 9ca38725e3d548248b6d5115be674cad, type: 3}
+  wowSound: {fileID: 8300000, guid: fe42c156197d7d343baae44a747ace5e, type: 3}
 --- !u!82 &315309990
 AudioSource:
   m_ObjectHideFlags: 0
@@ -3591,7 +3591,6 @@ GameObject:
   - component: {fileID: 747160411}
   - component: {fileID: 747160409}
   - component: {fileID: 747160408}
-  - component: {fileID: 747160407}
   m_Layer: 0
   m_Name: FryingPan (2)
   m_TagString: Untagged
@@ -3599,19 +3598,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &747160407
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 747160406}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3bb5ef5be942de54a93eb3418d4fa14d, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  sizzleSound: {fileID: 0}
 --- !u!50 &747160408
 Rigidbody2D:
   serializedVersion: 4
@@ -3685,7 +3671,6 @@ GameObject:
   - component: {fileID: 768640569}
   - component: {fileID: 768640568}
   - component: {fileID: 768640567}
-  - component: {fileID: 768640566}
   m_Layer: 0
   m_Name: FryingPan (3)
   m_TagString: Untagged
@@ -3693,19 +3678,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &768640566
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 768640565}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3bb5ef5be942de54a93eb3418d4fa14d, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  sizzleSound: {fileID: 0}
 --- !u!50 &768640567
 Rigidbody2D:
   serializedVersion: 4
@@ -4181,7 +4153,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: dc9e672d605f1244a9449814108645fa, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  wowSound: {fileID: 8300000, guid: 9ca38725e3d548248b6d5115be674cad, type: 3}
+  wowSound: {fileID: 8300000, guid: fe42c156197d7d343baae44a747ace5e, type: 3}
 --- !u!82 &836016387
 AudioSource:
   m_ObjectHideFlags: 0
@@ -4614,7 +4586,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: dc9e672d605f1244a9449814108645fa, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  wowSound: {fileID: 8300000, guid: 9ca38725e3d548248b6d5115be674cad, type: 3}
+  wowSound: {fileID: 8300000, guid: fe42c156197d7d343baae44a747ace5e, type: 3}
 --- !u!82 &930076888
 AudioSource:
   m_ObjectHideFlags: 0
@@ -5568,7 +5540,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: dc9e672d605f1244a9449814108645fa, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  wowSound: {fileID: 8300000, guid: 9ca38725e3d548248b6d5115be674cad, type: 3}
+  wowSound: {fileID: 8300000, guid: fe42c156197d7d343baae44a747ace5e, type: 3}
 --- !u!82 &1304990033
 AudioSource:
   m_ObjectHideFlags: 0
@@ -6479,7 +6451,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: dc9e672d605f1244a9449814108645fa, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  wowSound: {fileID: 8300000, guid: 9ca38725e3d548248b6d5115be674cad, type: 3}
+  wowSound: {fileID: 8300000, guid: fe42c156197d7d343baae44a747ace5e, type: 3}
 --- !u!82 &1663014954
 AudioSource:
   m_ObjectHideFlags: 0
@@ -7501,7 +7473,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: dc9e672d605f1244a9449814108645fa, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  wowSound: {fileID: 8300000, guid: 9ca38725e3d548248b6d5115be674cad, type: 3}
+  wowSound: {fileID: 8300000, guid: fe42c156197d7d343baae44a747ace5e, type: 3}
 --- !u!82 &1891061681
 AudioSource:
   m_ObjectHideFlags: 0
@@ -7745,7 +7717,7 @@ GameObject:
   - component: {fileID: 1989741245}
   m_Layer: 0
   m_Name: PinRight
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -8001,7 +7973,7 @@ GameObject:
   - component: {fileID: 2107445253}
   m_Layer: 0
   m_Name: PinLeft
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
